@@ -6,9 +6,9 @@ by Ajahn Munindo
 Paperback status: **N/A**  
 Ebook status: **N/A**
 
-ISBN for paperback: `000-0-000000-00-0`
+ISBN for paperback: `978-1-908444-50-9`
 
-ISBN for ebooks: `000-0-000000-00-0`
+ISBN for ebooks: `978-1-908444-51-6`
 
 Find the final PDF, EPUB and MOBI files in `publish/final/` folder.
 
