@@ -273,7 +273,7 @@ outer=15mm
   itemsep=0pt,
   topsep=0pt,
   parsep=0pt,
-  partopsep=3pt,
+  partopsep=1pt,
 ]%
 }{\end{itemize}}
 
