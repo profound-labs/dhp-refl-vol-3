@@ -9,7 +9,6 @@
   font-weight: normal;
   font-style: normal;
 }
-
 /* line 2, ../sass/_font-source-sans-pro.scss */
 .font-source-sans-pro {
   font-family: 'SourceSansPro';
@@ -21,35 +20,30 @@
   font-weight: normal;
   font-style: normal;
 }
-
 @font-face {
   font-family: 'SourceSansPro';
   src: url("../webfonts/sourcesanspro-italic.ttf") format("truetype");
   font-weight: normal;
   font-style: italic;
 }
-
 @font-face {
   font-family: 'SourceSansPro';
   src: url("../webfonts/sourcesanspro-bold.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
 }
-
 @font-face {
   font-family: 'SourceSansPro';
   src: url("../webfonts/sourcesanspro-lightitalic.ttf") format("truetype");
   font-weight: 300;
   font-style: italic;
 }
-
 @font-face {
   font-family: 'SourceSansPro';
   src: url("../webfonts/sourcesanspro-light.ttf") format("truetype");
   font-weight: 300;
   font-style: normal;
 }
-
 /* line 5, ../sass/_fontfaces.scss */
 .font-bold {
   font-weight: bold;

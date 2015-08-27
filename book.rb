@@ -1,9 +1,10 @@
+# coding: utf-8
 
 # Add local extensions to Prophecy here.
 # This file will be loaded by the CLI.
 
-require 'pry'
-require 'pry-debugger'
+#require 'pry'
+#require 'pry-debugger'
 
 require 'csv'
 
@@ -34,11 +35,12 @@ module Prophecy
 
       pages = text.scan(/[{]:.dhp-verse (#page[0-9]+)[}]/)
       versenum = text.scan(/> \*(v\. [0-9-]+)\*$/)
-      firstlines = text.scan(/\n\n> ([\w\.;\?\!‘’, –-]+)[\.;\?\!‘’, \\–-]*$/m)
+      firstlines = text.scan(/\n\n> ([\w…\.;\?\!‘’, –-]+)[\.;\?\!‘’, \\–-]*$/m)
 
       #binding.pry
 
       unless pages.size == versenum.size && versenum.size == firstlines.size
+        puts "pages: #{pages.size} versenum: #{versenum.size} firstlines: #{firstlines.size}"
         puts "Something wrong with the matches, the numbers are not equal."
         exit 2
       end
