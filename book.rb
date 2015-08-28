@@ -62,9 +62,9 @@ module Prophecy
       ret = ""
       lastplay = nil
       @navpoints.each_with_index do |nav, idx|
-        ret += "<navPoint id='nav#{nav['playOrder']}' playOrder='#{nav['playOrder']}'>\n"
+        ret += "<navPoint id=\"nav#{nav['playOrder']}\" playOrder=\"#{nav['playOrder']}\">\n"
         ret += "<navLabel><text>#{nav['text']}</text></navLabel>\n"
-        ret += "<content src='#{nav['src']}'/>"
+        ret += "<content src=\"#{nav['src']}\"/>"
 
         next_nav = @navpoints[idx+1]
         if !next_nav.nil? && next_nav['level'] < nav['level']
@@ -82,15 +82,15 @@ module Prophecy
 
       playorder = lastplay + 1
 
-      ret += "<navPoint id='nav#{playorder}' playOrder='#{playorder}'>\n"
+      ret += "<navPoint id=\"nav#{playorder}\" playOrder=\"#{playorder}\">\n"
       ret += "<navLabel><text>Index of Verses</text></navLabel>\n"
-      ret += "<content src='chapters/versepages.xhtml#dhammapada-reflections' />"
+      ret += "<content src=\"Text/versepages.xhtml#dhammapada-reflections\" />"
 
       CSV.foreach('verseindex.csv') do |row|
         playorder += 1
-        ret += "<navPoint id='nav#{playorder}' playOrder='#{playorder}'>\n"
+        ret += "<navPoint id=\"nav#{playorder}\" playOrder=\"#{playorder}\">\n"
         ret += "<navLabel><text>#{row[1]}</text></navLabel>\n"
-        ret += "<content src='chapters/versepages.xhtml#{row[0]}'/>"
+        ret += "<content src=\"Text/versepages.xhtml#{row[0]}\"/>"
         ret += "</navPoint>\n"
       end
 
@@ -106,7 +106,7 @@ module Prophecy
 
       ret << "<ul class='verseindex'>"
       CSV.foreach('verseindex.csv') do |row|
-        ret << "<li><a href='../chapters/versepages.xhtml#{row[0]}'>#{row[1]}</a></li>"
+        ret << "<li><a href='../Text/versepages.xhtml#{row[0]}'>#{row[1]}</a></li>"
       end
       ret << "</ul>"
 
