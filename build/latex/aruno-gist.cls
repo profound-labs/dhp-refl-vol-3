@@ -37,7 +37,8 @@
 \usepackage[cmyk]{xcolor}
 
 \usepackage[pdftex]{graphicx}
-\graphicspath{{./src-images/}}
+\graphicspath{{../../assets/Images/}}
+
 \usepackage{eso-pic}
 \usepackage{ccicons}
 \usepackage{enumitem}
