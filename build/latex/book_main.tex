@@ -14,19 +14,13 @@
 
 \hyphenation{prep-a-ra-tion belief attrac-tive under-stand-ing moment}
 
-% yellow FFFA75 255,250,117
-%\definecolor{frontpage}{HTML}{FFFA75}
-% use the rgb model to avoid conversion inaccuracies
-\definecolor{frontpage}{rgb}{1,0.98,0.45}
-
 \begin{document}
 
+% Empty sheet, this will be one page yellow paper
 \thispagestyle{empty}
 \mbox{}
-\pagecolor{frontpage}
 \newpage
 \thispagestyle{empty}
-\pagecolor{white}
 \mbox{}
 \newpage
 
@@ -79,26 +73,23 @@
 \input{../../manuscript/tex/index-of-first-lines.tex}
 
 %% Gift of Dhamma
+\cleartorecto
 \input{../../manuscript/tex/gift-of-dhamma.tex}
 
 %% Copyright details
 %% -----------------
 
-\cleartorecto
+\cleartoverso
 \thispagestyle{plain}
 \input{../../manuscript/tex/copyright-details.tex}
 
-%\newpage
-%\thispagestyle{empty}
-%\mbox{}
+% Empty sheet, this will be one page yellow paper
+\cleartorecto
+\thispagestyle{empty}
+\mbox{}
 \newpage
 \thispagestyle{empty}
-\pagecolor{frontpage}
 \mbox{}
-
-%\newpage
-%\thispagestyle{empty}
-%%\pagecolor{white}
-%\mbox{}
+\newpage
 
 \end{document}

@@ -477,24 +477,25 @@ until the feeling of being driven subsides, and then quietly listen to
 what intuition suggests we could do.
 {:.dhp-reflection}
 
-> The Awakened Ones can but point the way;\\
-> we must make the effort ourselves.\\
-> Those who reflect wisely and enter the path\\
-> are freed from the fetters of Mara.
+> Disciples of the Buddha\\
+> are fully awake,\\
+> dwelling both day and night\\
+> in contemplation of Reality.
 >
-> *v. 276*
+> *v. 297*
 {:.dhp-verse #page24}
 
-Force of habit defines our actions when we are not firmly established in
-mindfulness. These habit patterns are the fetters of Mara. To enter the
-path leading to freedom from such disappointing limitations requires
-wise reflection. If we wish, we are already free to choose to turn the
-light of attention inwards and enquire about truth. It is not easy to
-cultivate the discipline and skill required for insight and letting go
-to happen; we could also allow our attention to wander aimlessly. But
-this is not an imposition put upon us; it is a choice we willingly make
-when we see the consequences of heedlessness. What good fortune to have
-a chance to work on wisdom.
+What the Buddha and all his realized disciples awakened to, was the truth
+that was right in front of them. Like many other millions of seekers, the
+Buddha-to-be had been looking for the answers to his deep questions in
+techniques and belief systems. The rigours of renunciation had even driven
+him near to death; yet none of it had worked. What did work however was
+renouncing all effort to avoid suffering, either by way of indulgence in
+pleasure or indulgence in pain, and taking the experience of suffering
+itself as his teacher. The Four Noble Truths taught by the Buddha are his
+way of helping us not waste time. He wanted his disciples to awaken to the
+truth that exists here and now; to discover for themselves the joy and
+clarity which comes with Right Understanding.
 {:.dhp-reflection}
 
 > When those who are wise dwell in contemplation\\
