@@ -2,6 +2,8 @@
 
 \usepackage{mylayout}
 
+\webversionfalse
+
 %% Details of the book
 %% ===================
 
@@ -16,6 +18,11 @@
 
 \begin{document}
 
+\ifwebversion
+\webcover{%
+\includegraphics[width=\paperwidth]{./cover_front.pdf}
+}
+\else
 % Empty sheet, this will be one page yellow paper
 \thispagestyle{empty}
 \mbox{}
@@ -23,6 +30,7 @@
 \thispagestyle{empty}
 \mbox{}
 \newpage
+\fi
 
 %% Frontmatter
 %% ===========

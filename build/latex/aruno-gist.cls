@@ -45,6 +45,9 @@
 
 \usepackage{tikz}
 
+\newif\ifwebversion
+\webversionfalse
+
 %% === Define colors ===================================================
 
 \definecolor{textbody}{gray}{0.05}
@@ -54,6 +57,7 @@
 \definecolor{chaptitle}{gray}{0.3}
 % \definecolor{chapsubtitle}{gray}{0.6}
 \definecolor{footnoterule}{gray}{0.5}
+\definecolor{link}{rgb}{0.2,0.2,1}% not so light blue
 
 %% ============================
 %% Load fonts (before multicol)
@@ -145,6 +149,20 @@ outer=15mm
 %% ========
 
 \RequirePackage{hyperref}
+
+\ifwebversion
+% Web version: colored link text
+\hypersetup{
+  unicode=true,
+  colorlinks=true,
+  linkcolor=link,
+  citecolor=link,
+  filecolor=link,
+  urlcolor=link
+}
+\else
+% Desktop version: link colors to text color, so that it doesn't
+% interfere with printing, but can still test is link targets work.
 \hypersetup{
   colorlinks=true,
   unicode=true,
@@ -153,6 +171,8 @@ outer=15mm
   filecolor=textbody,
   urlcolor=textbody
 }
+\fi
+
 \RequirePackage[
   open,
   openlevel=2
@@ -297,6 +317,20 @@ outer=15mm
   \setVaggaName{\MakeLowercase{#2}}%
   \chapter{#1}%
   \markboth{#1}{#2}%
+}
+
+% If class option webVersion is used, show content in a paper sized
+% minipage, empty page otherwise.
+% Redefine \color{webcoverbg} to change page background color.
+\newcommand\webcover[1]{%
+\thispagestyle{empty}\mbox{}
+\ifwebversion
+\AddToShipoutPictureFG*{\put(0,0){%
+\begin{minipage}[b][\paperheight][c]{\paperwidth}%
+#1
+\end{minipage}}}
+\fi
+\clearpage
 }
 
 %% =======================
