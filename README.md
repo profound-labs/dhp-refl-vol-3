@@ -3,8 +3,8 @@
 
 by Ajahn Munindo
 
-Paperback status: **N/A**  
-Ebook status: **N/A**
+Paperback status: **COMPLETED**  
+Ebook status: **COMPLETED**
 
 ISBN for paperback: `978-1-908444-50-9`
 
