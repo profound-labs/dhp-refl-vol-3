@@ -23,13 +23,20 @@
 \includegraphics[width=\paperwidth]{./cover_front.pdf}
 }
 \else
-% Empty sheet, this will be one page yellow paper
+
+% Yellow color page
+% Pantone 124M
+% CMYK 0, 27, 100, 8
+
 \thispagestyle{empty}
 \mbox{}
+\pagecolor{frontyellow}
 \newpage
 \thispagestyle{empty}
+\pagecolor{white}
 \mbox{}
 \newpage
+
 \fi
 
 %% Frontmatter
@@ -90,14 +97,5 @@
 \cleartoverso
 \thispagestyle{plain}
 \input{../../manuscript/tex/copyright-details.tex}
-
-% Empty sheet, this will be one page yellow paper
-\cleartorecto
-\thispagestyle{empty}
-\mbox{}
-\newpage
-\thispagestyle{empty}
-\mbox{}
-\newpage
 
 \end{document}
