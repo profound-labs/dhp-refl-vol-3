@@ -12,5 +12,7 @@ ISBN for ebooks: `978-1-908444-51-6`
 
 Find the final PDF, EPUB and MOBI files in `publish/final/` folder.
 
+Github: <https://github.com/profound-labs/dhp-refl-vol-3>
+
 Produced with LaTeX and [prophecy](https://github.com/profound-labs/prophecy).
 
